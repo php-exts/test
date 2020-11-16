@@ -1,0 +1,33 @@
+{
+    "name": "php-exts/http",
+    "description": "test",
+    "type": "project",
+    "keywords": [
+        "test"
+    ],
+    "homepage": "https://github.com",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Cloudflying",
+            "email": "oss@live.hk"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        },
+        "psr-0": {
+            "": "extend/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
