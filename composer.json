@@ -1,7 +1,7 @@
 {
-    "name": "php-exts/http",
+    "name": "php-exts/test",
     "description": "test",
-    "type": "project",
+    "type": "library",
     "keywords": [
         "test"
     ],
@@ -21,11 +21,8 @@
     },
     "autoload": {
         "psr-4": {
-            "app\\": "app"
+            "App\\": "src/Test"
         },
-        "psr-0": {
-            "": "extend/"
-        }
     },
     "config": {
         "preferred-install": "dist"
